@@ -1,5 +1,7 @@
 #Angular JSON Schema - Example
 
+A example usigin [angular-json-schema](https://github.com/picheli20/angular-json-schema)!!
+
 Back-end required JSON:
 
 ```JSON
@@ -75,6 +77,14 @@ UI Result:
 
 ![alt tag](https://raw.githubusercontent.com/picheli20/example-json-schema/master/simpleScreen.png)
 
+##Dependencies
+
+To run this project you need to have:
+
+* NodeJS ([link](https://nodejs.org/))
+* Bower ([link](http://bower.io/))
+* Gulp ([link](http://gulpjs.com/))
+
 ##Setup the project
 
 1.Install the depedencies above.
@@ -88,13 +98,13 @@ git clone https://github.com/picheli20/example-json-schema.git
 3.Go into the project folder
 
 ```
-cd angular-pokedex
+cd example-json-schema
 ```
 
 4.Install the gulp dependencies
 
 ```
-sudo npm install
+npm install
 ```
 5.Install the bower dependencies
 
@@ -108,7 +118,7 @@ To start a local server go to project folder and run the command:
 
 
 ```
-sudo gulp serve
+gulp serve
 ```
 
 Access [localhost:3000](localhost:3000) 
