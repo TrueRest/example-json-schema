@@ -73,6 +73,42 @@ Back-end required JSON:
 
 UI Result:
 
-
-
 ![alt tag](https://raw.githubusercontent.com/picheli20/example-json-schema/master/simpleScreen.png)
+
+##Setup the project
+
+1.Install the depedencies above.
+
+2.Clone the project.
+
+```
+git clone https://github.com/picheli20/example-json-schema.git
+```
+
+3.Go into the project folder
+
+```
+cd angular-pokedex
+```
+
+4.Install the gulp dependencies
+
+```
+sudo npm install
+```
+5.Install the bower dependencies
+
+```
+bower install
+```
+
+##Server
+
+To start a local server go to project folder and run the command:
+
+
+```
+sudo gulp serve
+```
+
+Access [localhost:3000](localhost:3000) 
