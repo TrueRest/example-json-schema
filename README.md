@@ -75,4 +75,4 @@ UI Result:
 
 
 
-![alt tag](http://url/to/img.png)
+![alt tag](https://raw.githubusercontent.com/picheli20/example-json-schema/master/simpleScreen.png)
