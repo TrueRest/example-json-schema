@@ -2,6 +2,14 @@
 
 A example usigin [angular-json-schema](https://github.com/picheli20/angular-json-schema)!!
 
+##Dependencies
+
+To run this project you need:
+
+* NodeJS ([link](https://nodejs.org/))
+* Bower ([link](http://bower.io/))
+* Gulp ([link](http://gulpjs.com/))
+
 Back-end required JSON:
 
 ```JSON
@@ -77,13 +85,6 @@ UI Result:
 
 ![alt tag](https://raw.githubusercontent.com/picheli20/example-json-schema/master/simpleScreen.png)
 
-##Dependencies
-
-To run this project you need to have:
-
-* NodeJS ([link](https://nodejs.org/))
-* Bower ([link](http://bower.io/))
-* Gulp ([link](http://gulpjs.com/))
 
 ##Setup the project
 
