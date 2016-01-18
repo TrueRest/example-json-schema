@@ -1,5 +1,7 @@
 #Angular JSON Schema - Example
 
+**This is a experimental (alpha) package, do not use it for production, api is expected to change**
+
 [![Join the chat at https://gitter.im/TrueRest/example-json-schema](https://badges.gitter.im/TrueRest/example-json-schema.svg)](https://gitter.im/TrueRest/example-json-schema?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A example usigin [angular-json-schema](https://github.com/picheli20/angular-json-schema)!!
