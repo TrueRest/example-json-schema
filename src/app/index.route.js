@@ -9,12 +9,12 @@
   function routerConfig($stateProvider, $urlRouterProvider, ngSchemaProvider) {
     $stateProvider
       .state('home', ngSchemaProvider.set({
-              url: '/'
+              url: '/home'
             })
       )
       .state('node', {});
 
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/home');
   }
 
 })();
