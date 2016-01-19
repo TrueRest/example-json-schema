@@ -25,9 +25,9 @@
   /** @ngInject */
   function exampleForm(ngSchema) {
     var vm = this;
-    ngSchema.extend(vm, vm.ngSchemaId);
+    console.log(vm.ngSchemaId);
+    // ngSchema.extend(vm, vm.ngSchemaId);
     console.log(vm);
-
     vm.submit = function(){
       vm.save({
         'beforeAction' : function(){
