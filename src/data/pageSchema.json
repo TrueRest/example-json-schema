@@ -13,6 +13,7 @@
                     "link": [
                         {
                             "rel" : "click",
+                            "mediaType" : "external",
                             "href" : "http://google.com/"
                         }
                     ]
@@ -23,6 +24,7 @@
                     "link": [
                         {
                             "rel" : "click",
+                            "mediaType" : "external",
                             "href" : "http://github.com/"
                         }
                     ]
@@ -48,6 +50,7 @@
                         {
                             "rel" : "save",
                             "href" : "http://google.com/",
+                            "method" : "PUT",
                             "schema" : {
                                 "required": [ "firstName" ]
                             }
