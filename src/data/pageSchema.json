@@ -10,7 +10,7 @@
                 {
                     "type" : "link-button",
                     "title" : "Google!",
-                    "link": [
+                    "links": [
                         {
                             "rel" : "click",
                             "mediaType" : "external",
@@ -21,7 +21,7 @@
                 {
                     "type" : "link-button",
                     "title" : "Github",
-                    "link": [
+                    "links": [
                         {
                             "rel" : "click",
                             "mediaType" : "external",
@@ -49,8 +49,8 @@
                     "links" : [
                         {
                             "rel" : "save",
-                            "href" : "http://google.com/",
-                            "method" : "PUT",
+                            "href" : "/data/exampleRequest.json",
+                            "method" : "GET",
                             "schema" : {
                                 "required": [ "firstName" ]
                             }

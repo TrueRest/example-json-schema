@@ -13,7 +13,7 @@
       scope: {
           ngSchemaId: '='
       },
-      controller: exampleForm,
+      controller: ['ngSchema', 'toastr', exampleForm],
       controllerAs: 'exampleForm',
       bindToController: true,
       transclude: true
@@ -23,22 +23,30 @@
   }
 
   /** @ngInject */
-  function exampleForm(ngSchema) {
+  function exampleForm(ngSchema, toastr) {
     var vm = this;
-    console.log(vm.ngSchemaId);
-    // ngSchema.extend(vm, vm.ngSchemaId);
-    console.log(vm);
+    ngSchema.extend(vm, vm.ngSchemaId);
     vm.submit = function(){
-      vm.save({
+      var validationObj = {
         'beforeAction' : function(){
-          alert('beforeAction!');
+          console.log('beforeAction!');
         },
         'validationError' : function(fieldName){
-          alert('Error on field ' + fieldName + '! Please check');
+          toastr.error('Error on field ' + fieldName + '! Please check');
         },
         'callback': function(){
-          alert('Callback');
+          console.log('Callback');
         }
+      };
+
+      var request = vm.save(validationObj);
+
+      if(!request){
+        return;
+      }
+      
+      request.then(function(data){
+        console.log("Sucess!", data);
       });
     }
   }
