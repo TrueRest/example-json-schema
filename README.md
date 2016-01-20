@@ -4,7 +4,7 @@
 
 [![Join the chat at https://gitter.im/TrueRest/example-json-schema](https://badges.gitter.im/TrueRest/example-json-schema.svg)](https://gitter.im/TrueRest/example-json-schema?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-A example usigin [angular-json-schema](https://github.com/picheli20/angular-json-schema)!!
+A example usigin [angular-json-schema](https://github.com/TrueRest/angular-json-schema)!!
 
 ##Dependencies
 
@@ -87,7 +87,7 @@ Back-end required JSON:
 
 UI Result:
 
-![alt tag](https://raw.githubusercontent.com/picheli20/example-json-schema/master/simpleScreen.png)
+![alt tag](https://raw.githubusercontent.com/TrueRest/example-json-schema/master/simpleScreen.png)
 
 
 ##Setup the project
@@ -97,7 +97,7 @@ UI Result:
 2.Clone the project.
 
 ```
-git clone https://github.com/picheli20/example-json-schema.git
+git clone https://github.com/TrueRest/example-json-schema.git
 ```
 
 3.Go into the project folder
@@ -126,4 +126,4 @@ To start a local server go to project folder and run the command:
 gulp serve
 ```
 
-Access [localhost:3000](localhost:3000) 
+Access [localhost:3000](localhost:3000)
