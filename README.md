@@ -1,4 +1,4 @@
-#Angular JSON Schema - Example
+# Angular JSON Schema - Example
 
 **This is a experimental (alpha) package, do not use it for production, api is expected to change**
 
@@ -6,7 +6,7 @@
 
 A example usigin [angular-json-schema](https://github.com/TrueRest/angular-json-schema)!!
 
-##Dependencies
+## Dependencies
 
 To run this project you need:
 
@@ -90,7 +90,7 @@ UI Result:
 ![alt tag](https://raw.githubusercontent.com/TrueRest/example-json-schema/master/simpleScreen.png)
 
 
-##Setup the project
+## Setup the project
 
 1.Install the depedencies above.
 
@@ -117,7 +117,7 @@ npm install
 bower install
 ```
 
-##Server
+## Server
 
 To start a local server go to project folder and run the command:
 
